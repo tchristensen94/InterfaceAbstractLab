@@ -20,6 +20,7 @@ public class AdvancedJavaCourse implements Course{
         this.credits = credits;
         this.prerequisites = prerequisites;
     }
+
     @Override
     public String getCourseName() {
         return courseName;
